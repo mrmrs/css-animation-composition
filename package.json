@@ -1,0 +1,44 @@
+{
+  "name": "css-animation-composition",
+  "version": "0.0.1",
+  "description": "Functional CSS for animation-composotion",
+  "style": "dist/animation-composition.css",
+  "main": "dist/animation-composition.css",
+  "exports": {
+    ".": "./dist/animation-composition.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "css",
+    "animation-composition",
+    "utility",
+    "single-purpose",
+    "functional-css"
+  ],
+  "homepage": "https://github.com/mrmrs/css-animation-composition",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrmrs/css-animation-composition.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/css-animation-composition/issues"
+  },
+  "author": {
+    "name": "Adam Morse",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "lightningcss": "^1"
+  }
+}

@@ -1,0 +1,26 @@
+/*
+   ANIMATION COMPOSITION
+*/
+
+  .a-replace    { animation-composition: replace; }
+  .a-add     { animation-play-state: add; }
+  .a-accumulate     { animation-play-state: accumulate; }
+
+@media screen and (min-width: 32em) {
+  .a-replace-s { animation-composition: replace; }
+  .a-add-s { animation-play-state: add; }
+  .a-accumulate-s { animation-play-state: accumulate; }
+}
+
+@media screen and (min-width:48em) {
+  .a-replace-m { animation-composition: replace; }
+  .a-add-m { animation-play-state: add; }
+  .a-accumulate-m { animation-play-state: accumulate; }
+}
+
+@media screen and (min-width: 96em) {
+  .a-replace-l { animation-composition: replace; }
+  .a-add-l { animation-play-state: add; }
+  .a-accumulate-l { animation-play-state: accumulate; }
+}
+
